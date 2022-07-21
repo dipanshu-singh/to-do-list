@@ -1,0 +1,47 @@
+.task{
+    display: flex;
+    border-color: brown;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:auto;
+    background-color: #f1f1f1;
+    border:2rem;
+    padding : 0em;
+}
+.content{
+    flex: 1;
+    padding: 2rem;
+    padding-top:1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main{
+    background-color: #f1f1f1;
+    box-shadow: 0px 3px 8px 0px;
+    min-width: 40%;
+    margin:0vh 10vh;
+}
+#heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#textenter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+    cursor: row-resize;
+    border: none;
+    outline:none;
+}
+.text{
+    flex:1;
+}
+.container{
+    display: flex;
+}
+.right{
+    flex: none;
+}
+.deleteTask{
+    font-size: medium;
+    border:none;
+    outline: none;
+}

@@ -1,0 +1,37 @@
+// //creating div element
+  // var divNode = document.createElement("div");
+  // divNode.setAttribute("class", "task");
+  // parent.appendChild(divNode);
+
+  // //creating text element
+  // var taskNode = document.createElement("span");
+  // taskNode.setAttribute("class","text");
+  // taskNode.innerText = value;
+  // divNode.appendChild(taskNode);
+  
+  //creating right div for controls
+  // var rightdivNode = document.createElement("div");
+  // rightdivNode.setAttribute("class", "right");
+  // divNode.appendChild(rightdivNode);
+
+  //creating edit element
+  // var edit = document.createElement("img");
+  // edit.setAttribute("class", "edittask");
+  // edit.src = "edit.png";
+  // rightdivNode.appendChild(edit);
+  // //add event listener to edit
+  
+
+  //creating checkbox for status of task
+  // var status = document.createElement("input");
+  // status.type = "checkbox";
+  // status.setAttribute("class", "status");
+  // rightdivNode.appendChild(status);
+  
+
+  //creating  button for delete
+  // var deleteNode = document.createElement("button");
+  // deleteNode.innerText = "X";
+  // rightdivNode.appendChild(deleteNode);
+  // deleteNode.setAttribute("class", "deleteTask");
+  
